@@ -1,0 +1,15 @@
+[Trace]   DarkRiftServer        System Details:
+                                	OS: Microsoft Windows NT 10.0.18362.0
+                                	CLS Version: 4.0.30319.42000
+                                	DarkRift: 2.3.1.0 - Free
+[Trace]   PluginFactory         Created plugin 'CompatibilityBichannelListener'.
+[Trace]   DefaultNetworkListener Starting compatibility listener.
+[Info]    DefaultNetworkListener Server mounted, listening on port 4296.
+[Trace]   DefaultNetworkListener Accepted TCP connection from 127.0.0.1:65346.
+[Trace]   DefaultNetworkListener Accepted UDP connection from 127.0.0.1:53290.
+[Info]    ClientManager         New client [0] connected [127.0.0.1:65346|127.0.0.1:53290].
+[Error]   ClientManager         An plugin encountered an error whilst handling the ClientDisconnected event. (See logs for exception)
+                                 System.NotImplementedException: The method or operation is not implemented.
+                                   at GameServerManager.ClientDisconnected (System.Object sender, DarkRift.Server.ClientDisconnectedEventArgs e) [0x00001] in C:\Users\halle\Documents\Unity\MyFirstGame\Assets\Scripts\Network\GameServerManager.cs:123 
+                                   at DarkRift.Server.ClientManager+<>c__DisplayClass32_0.<HandleDisconnection>b__0 () [0x00031] in <c92ea31c79004d8e862085a98c33054e>:0 
+[Info]    ClientManager         Client [0] disconnected.
